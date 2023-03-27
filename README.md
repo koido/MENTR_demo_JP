@@ -26,18 +26,19 @@ MENTRは、DNA配列から非翻訳RNAの発現を予測する機械学習法で
 各解析環境に応じて、以下のいずれかのノートブックをダウンロードし、使用してください。
 
   - [Linux (x64 CPU)](/ipynb/MENTR_demo_x64_CPU.ipynb)
-    - 最終動作確認日: 2023/2/17
+    - 2023/2/17 initial release
   - [macOS (x64 CPU)](/ipynb/MENTR_demo_x64_CPU_macOS.ipynb)
-    - 最終動作確認日: 2023/2/17
-  - <s>[macOS (Apple Silicon)](/ipynb/MENTR_demo_arm64_CPU.ipynb)</s>
-    - 最終動作確認日: 2023/2/17
-    -  <font color="red">執筆当時（2023/2/17）には利用可能であったosx-64用のpytorch==0.4.0がインストールできなくなっている模様。対応など検討中 (2023/3/20)</font>
+    - 2023/2/17 initial release
+    - 2023/3/27 condaから消失したosx-64用のpytorch==0.4.0を利用可能にした
+  - [macOS (Apple Silicon)](/ipynb/MENTR_demo_arm64_CPU.ipynb)
+    - 2023/2/17 initial release
+    - 2023/3/27 condaから消失したosx-64用のpytorch==0.4.0を利用可能にした
   - Windowsユーザ → Linux 用 Windows サブシステム（WSL）上でJupyterLabを立ち上げ、上記の[Linux (x64 CPU)](/ipynb/MENTR_demo_x64_CPU.ipynb) を使用
 
 ### 2.2. クラウド環境（Google Colaboratory）での実行
 
 [こちらのリンク](https://colab.research.google.com/drive/15RQvlNLmJ98sZ2GoYCGybQcim8y_NyDy?usp=sharing)から解析を体験できます。
-  - 最終動作確認日: 2023/2/14
+  - 2023/2/14 initial release
 
 ## 3. References
 
